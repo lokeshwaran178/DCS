@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    color: orange;
+    background: black;
+    padding:8px;
+    h1,li,ul{
+        display: inline;
+    }
+    ul{
+        margin-left: 60%;
+    }
+    li:hover{
+        color: red;
+    }
+}
+.header:hover{
+    color: black;
+}
+
+.search{
+    text-align: center;
+    input{
+        width: 60%;
+        padding: 1%;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+.row{
+    text-align: center;
+    padding-top: 4%;
+    .column{
+        border: black;
+        border-width:2px ;
+        border-style: solid;
+        display: inline-block;
+        width: 220px;
+        height: 200px;
+
+    }
+
+}
+.aboutus{
+    color: orange;
+    text-align: center;
+    
+}
+.contactus{
+    text-align: center;
+    color: orange;
+    background: black;
+    padding: 1%;
+    table{
+        margin-left: 40%;
+    }
+}
+
+
